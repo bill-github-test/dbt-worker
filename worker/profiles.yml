@@ -4,7 +4,7 @@ worker:
     dev:
       type: sqlserver
       driver: 'ODBC Driver 18 for SQL Server' # (The ODBC Driver installed on your system)
-      server: I1014
+      server: localhost
       port: 1433
       database: DbtTest
       schema: dbt_test
@@ -12,3 +12,4 @@ worker:
       password: Bill2380
       encrypt: False
       trust_cert: True
+      threads: 1
