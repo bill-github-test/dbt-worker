@@ -1,1 +1,4 @@
 dbt-sqlserver
+azure-identity
+azure-keyvault-secrets
+azure-appconfiguration

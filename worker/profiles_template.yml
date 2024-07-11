@@ -1,0 +1,6 @@
+non-prod:
+  target: dev
+  outputs:
+    dev:
+      type: sqlserver
+      driver: 'ODBC Driver 18 for SQL Server' # (The ODBC Driver installed on your system)
