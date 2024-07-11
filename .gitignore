@@ -164,3 +164,4 @@ cython_debug/
 
 # dbt core
 .user.yml
+profiles.yml

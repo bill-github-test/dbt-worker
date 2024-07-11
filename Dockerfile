@@ -4,6 +4,8 @@ WORKDIR /app
 
 COPY . /app
 
-RUN pip install -r requirement.txt
+RUN python -m pip install --upgrade pip
 
-CMD ["python", "worker.py"]
+RUN pip install -r requirements.txt
+
+ENTRYPOINT [ "python", 'dbt-worker.py' ]
